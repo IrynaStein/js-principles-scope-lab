@@ -2,10 +2,13 @@
 
 var customerName = 'bob';
 
-function upperCaseCustomerName(){
-    customerName = customerName.toUpperCase();
-    return customerName;
-};
+// function upperCaseCustomerName(){
+//     customerName = customerName.toUpperCase();
+//     return customerName;
+// };
+function upperCaseCustomerName() => { customerName.toUpperCase() }
+    
+
 
 // `setBestCustomer()`: Write a function that when called, declares a variable
 //    called `bestCustomer` in global scope and assigns it to be `'not bob'`. (Poor
@@ -37,6 +40,6 @@ const leastFavoriteCustomer = 'Timmy';
 
 function changeLeastFavoriteCustomer(){
     leastFavoriteCustomer = 'Panzon';
-}
+};
 
 
